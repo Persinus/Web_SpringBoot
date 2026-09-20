@@ -1,0 +1,32 @@
+<svg width="720" height="460" viewBox="0 0 720 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="40" x2="650" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#152B42"/>
+      <stop offset="1" stop-color="#0A1728"/>
+    </linearGradient>
+    <linearGradient id="java" x1="267" y1="100" x2="439" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78E8D8"/>
+      <stop offset="1" stop-color="#189D9D"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020817" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="696" height="436" rx="34" fill="url(#bg)" stroke="#35516B" stroke-opacity=".65"/>
+  <circle cx="128" cy="104" r="76" fill="#2DD4BF" fill-opacity=".08"/>
+  <circle cx="604" cy="352" r="112" fill="#60A5FA" fill-opacity=".08"/>
+  <path d="M113 350C178 276 245 277 301 342C355 404 449 405 596 262" stroke="#5EEAD4" stroke-opacity=".2" stroke-width="2" stroke-dasharray="7 10"/>
+  <g filter="url(#shadow)">
+    <rect x="239" y="96" width="242" height="224" rx="28" fill="#0A1728" stroke="#5EEAD4" stroke-opacity=".38"/>
+    <rect x="263" y="124" width="194" height="138" rx="16" fill="#101F33"/>
+    <path d="M305 175C305 157 320 145 341 145H390C412 145 427 157 427 175V205C427 223 412 235 390 235H341C320 235 305 223 305 205V175Z" fill="url(#java)"/>
+    <path d="M341 163H390C401 163 409 168 409 178C409 188 401 193 390 193H341C330 193 322 188 322 178C322 168 330 163 341 163Z" fill="#0A1728" fill-opacity=".86"/>
+    <path d="M347 201C347 195 352 191 360 191H390C398 191 403 195 403 201C403 207 398 211 390 211H360C352 211 347 207 347 201Z" fill="#0A1728" fill-opacity=".86"/>
+    <path d="M289 285H431" stroke="#78E8D8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M315 319H405" stroke="#35516B" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g fill="#B6CBE0" font-family="monospace" font-size="16">
+    <text x="62" y="178">JVM</text><text x="568" y="142">JDK</text><text x="535" y="382">API</text>
+  </g>
+  <g fill="#5EEAD4"><circle cx="91" cy="197" r="4"/><circle cx="552" cy="159" r="4"/><circle cx="519" cy="399" r="4"/></g>
+</svg>
