@@ -2,7 +2,7 @@ export const sectionData = [
   {
     id: 'fundamentals', number: '01', title: 'Java Fundamentals',
     lessons: [
-      ['what-is-java', 'Java là gì — JVM, JDK, JRE'], ['jdk-project', 'Cài đặt JDK và cấu trúc Java Project'], ['basic-syntax', 'Cú pháp Java cơ bản'], ['variables', 'Biến và kiểu dữ liệu'], ['type-casting', 'Type Casting'], ['operators', 'Toán tử'], ['input-output', 'Input / Output'], ['if-else', 'if / else'], ['switch', 'switch'], ['loops', 'for / while / do-while'], ['break-continue', 'break / continue'], ['array', 'Array'], ['string', 'String'], ['method', 'Method'], ['scope-keyword', 'Scope và Keyword'],
+      ['intellij-idea', 'Bài 0: Cách sử dụng IntelliJ IDEA'], ['what-is-java', 'Java là gì — JVM, JDK, JRE'], ['jdk-project', 'Cài đặt JDK và cấu trúc Java Project'], ['basic-syntax', 'Cú pháp Java cơ bản'], ['variables', 'Biến và kiểu dữ liệu'], ['type-casting', 'Type Casting'], ['operators', 'Toán tử'], ['input-output', 'Input / Output'], ['if-else', 'if / else'], ['switch', 'switch'], ['loops', 'for / while / do-while'], ['break-continue', 'break / continue'], ['array', 'Array'], ['string', 'String'], ['method', 'Method'], ['scope-keyword', 'Scope và Keyword'],
     ],
   },
   {
@@ -39,6 +39,7 @@ export const sectionData = [
 
 export const modules = [
   { id: 'java', label: 'Java', tone: 'teal' },
+  { id: 'spring-boot', label: 'Spring Boot', tone: 'green' },
   { id: 'english', label: 'English', tone: 'blue' },
   { id: 'japanese', label: '日本語', tone: 'rose' },
   { id: 'react', label: 'React', tone: 'cyan' },
@@ -46,6 +47,7 @@ export const modules = [
 ]
 
 export const moduleLessons = {
+  'spring-boot': [['intellij-idea', 'Bài 0: Cách sử dụng IntelliJ IDEA']],
   english: [['basics', 'English Basics'], ['vocabulary', 'Everyday Vocabulary'], ['grammar', 'Basic Grammar'], ['conversation', 'Conversation Practice']],
   japanese: [['hiragana', 'Hiragana'], ['katakana', 'Katakana'], ['basic-grammar', 'Basic Grammar'], ['conversation', '会話練習']],
   react: [['jsx', 'JSX & Components'], ['props-state', 'Props & State'], ['hooks', 'React Hooks'], ['api-ui', 'Build a UI']],
